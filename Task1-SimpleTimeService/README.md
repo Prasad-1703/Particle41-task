@@ -65,11 +65,11 @@ docker login
 
 2. Tag the Image
 
-docker tag simpletimeservice your_dockerhub_username/simpletimeservice:latest
+docker tag prasad1703/simpletimeservice:latest
 
 3. Push the Image
 
-docker push your_dockerhub_username/simpletimeservice:latest
+docker push prasad1703/simpletimeservice:latest
 
 Local Testing Without Docker (Optional)
 
