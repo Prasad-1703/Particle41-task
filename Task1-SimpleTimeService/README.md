@@ -25,6 +25,7 @@ Instructions to Build and Run the Application
 1. Clone the Repository
 
 git clone https://github.com/Prasad-1703/Particle41-task.git
+
 cd SimpleTimeService
 
 2. Build the Docker Image
