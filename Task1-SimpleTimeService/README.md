@@ -24,23 +24,23 @@ Instructions to Build and Run the Application
 
 1. Clone the Repository
 
-git clone https://github.com/Prasad-1703/Particle41-task.git
+  git clone https://github.com/Prasad-1703/Particle41-task.git
 
-cd SimpleTimeService
+  cd SimpleTimeService
 
 2. Build the Docker Image
 
-docker build -t simpletimeservice .
+  docker build -t simpletimeservice .
 
 3. Run the Docker Container
 
-docker run -itd -p 8080:8080 simpletimeservice
+  docker run -itd -p 8080:8080 simpletimeservice
 
 4. Access the Application
 
-Open a web browser or use curl to test the service:
+  Open a web browser or use curl to test the service:
 
-http://localhost:8080/
+  http://localhost:8080/
 
 Sample Response:
 
