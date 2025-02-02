@@ -28,7 +28,7 @@ Clone the Repository:
 
  1. git clone https://github.com/Prasad-1703/Particle41-task.git
 
- 2. cd SimpleTimeService
+ 2. cd Task1-SimpleTimeService
 
  3. Build the Docker Image:
 
