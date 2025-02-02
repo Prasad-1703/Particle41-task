@@ -21,8 +21,11 @@ This project sets up the necessary infrastructure to host a containerized applic
 The infrastructure will be created as follows:
 
 VPC with 2 public and 2 private subnets.
+
 ECS/EKS cluster deployed within the VPC.
+
 ECS/EKS task/service running the container on private subnets.
+
 Load Balancer deployed on public subnets to offer the service.
 
 **Getting Started**
@@ -37,19 +40,19 @@ cd terraform-container-infrastructure
 
 Initialize Terraform to download the necessary providers:
 
-terraform init
+  1.terraform init
 
 Review the Terraform plan to ensure the infrastructure is set up as desired:
 
-terraform plan
+  2.terraform plan
 
 Apply the Terraform configuration to create the infrastructure:
 
-terraform apply
+  3.terraform apply
 
 To destroy the resources (optional), run:
 
-terraform destroy
+  4.terraform destroy
 
 **Prerequisites**
 
