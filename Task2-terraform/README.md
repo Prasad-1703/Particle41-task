@@ -1,4 +1,4 @@
-# **Task 2 - Terraform and Cloud: Container Hosting Infrastructure**\
+# **Task 2 - Terraform **
 
 This Folder contains the Terraform code to create infrastructure in AWS (or equivalent) for hosting a containerized application. The infrastructure setup can be either server-based or serverless. The infrastructure includes components like VPC, ECS/EKS, subnets, load balancers, and other necessary resources.
 
@@ -36,7 +36,7 @@ Clone this repository:
 
 git clone https://github.com/yourusername/terraform-container-infrastructure.git
 
-cd terraform-container-infrastructure
+cd Task2-terraform
 
 Initialize Terraform to download the necessary providers:
 
