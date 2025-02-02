@@ -1,4 +1,4 @@
-# **Task 2 - Terraform **
+# **Task 2 - Terraform**
 
 This Folder contains the Terraform code to create infrastructure in AWS (or equivalent) for hosting a containerized application. The infrastructure setup can be either server-based or serverless. The infrastructure includes components like VPC, ECS/EKS, subnets, load balancers, and other necessary resources.
 
