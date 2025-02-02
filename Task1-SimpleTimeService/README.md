@@ -16,7 +16,7 @@ json
 
 
 
-**# Prerequisites**
+## **Prerequisites**
 Docker installed: Install Docker
 
 Optional (for local testing without Docker):
