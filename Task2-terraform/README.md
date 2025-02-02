@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 
 Clone this repository:
 
-git clone https://github.com/yourusername/terraform-container-infrastructure.git
+git clone https://github.com/Prasad-1703/Particle41-task.git
 
 cd Task2-terraform
 
