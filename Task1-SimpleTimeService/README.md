@@ -88,7 +88,3 @@ http://localhost:8080/
 
 Project Structure
 
-Task1-SimpleTimeService
-├── Dockerfile
-├── app.py
-└── README.md
