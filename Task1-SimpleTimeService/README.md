@@ -26,15 +26,15 @@ Python 3.9+ installed: Install Python
 Instructions to Build and Run the Application
 Clone the Repository:
 
-git clone https://github.com/Prasad-1703/Particle41-task.git
+ 1. git clone https://github.com/Prasad-1703/Particle41-task.git
 
-cd SimpleTimeService
+ 2. cd SimpleTimeService
 
-Build the Docker Image:
+ 3. Build the Docker Image:
 
-docker build -t simpletimeservice .
+ 4. docker build -t simpletimeservice .
 
-Run the Docker Container:
+ 5. Run the Docker Container:
 
 docker run -itd -p 8080:8080 simpletimeservice
 
