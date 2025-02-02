@@ -32,13 +32,17 @@ To get started with this project, follow these steps:
 Clone this repository:
 
 git clone https://github.com/yourusername/terraform-container-infrastructure.git
+
 cd terraform-container-infrastructure
+
 Initialize Terraform to download the necessary providers:
 
 terraform init
+
 Review the Terraform plan to ensure the infrastructure is set up as desired:
 
 terraform plan
+
 Apply the Terraform configuration to create the infrastructure:
 
 terraform apply
