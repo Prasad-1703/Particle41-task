@@ -1,4 +1,5 @@
-**Task 2 - Terraform and Cloud: Container Hosting Infrastructure**
+**Task 2 - Terraform and Cloud: Container Hosting Infrastructure**\
+
 This Folder contains the Terraform code to create infrastructure in AWS (or equivalent) for hosting a containerized application. The infrastructure setup can be either server-based or serverless. The infrastructure includes components like VPC, ECS/EKS, subnets, load balancers, and other necessary resources.
 
 Table of Contents
@@ -10,10 +11,13 @@ Prerequisites
 Usage
 
 **Overview**
+
 This project sets up the necessary infrastructure to host a containerized application in the cloud using Terraform. Depending on the preference, either a server-based setup (using ECS/EKS) or a serverless setup (using Lambda) is created, with resources like VPC, subnets, and load balancers deployed accordingly.
 
 **Infrastructure**
+
 **Server-based Setup**
+
 The infrastructure will be created as follows:
 
 VPC with 2 public and 2 private subnets.
@@ -22,6 +26,7 @@ ECS/EKS task/service running the container on private subnets.
 Load Balancer deployed on public subnets to offer the service.
 
 **Getting Started**
+
 To get started with this project, follow these steps:
 
 Clone this repository:
@@ -43,6 +48,7 @@ To destroy the resources (optional), run:
 terraform destroy
 
 **Prerequisites**
+
 Before running the Terraform code, make sure you have the following prerequisites:
 
 Terraform installed on your machine (preferably the latest stable version).
