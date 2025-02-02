@@ -1,4 +1,4 @@
-**#Project Overview**
+**Project Overview**
 This repository contains two tasks related to containerization, cloud infrastructure, and Terraform. These tasks are organized into separate folders, each representing a different challenge:
 
 Task 1 - Minimalist Application Development / Docker / Kubernetes
@@ -30,3 +30,14 @@ Notes
 Task 1 involves developing a simple application and containerizing it.
 Task 2 involves automating cloud infrastructure deployment with Terraform to host the application.
 Both tasks involve using cloud technologies and containerization best practices.
+
+
+# Project Overview
+
+This repository contains two tasks related to containerization, cloud infrastructure, and Terraform. 
+
+<h2>Task 1: SimpleTimeService</h2>
+Task 1 focuses on creating a simple microservice...
+
+<h3>Task 2: Terraform Cloud Infrastructure</h3>
+In Task 2, we set up the cloud infrastructure using Terraform.
