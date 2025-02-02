@@ -12,11 +12,11 @@ When accessing the root (/) endpoint, the service returns a JSON response with t
 {
   "timestamp": "<current date and time>",
   "ip": "<IP address of the visitor>"
-}/n
+}
 
 
 
-Prerequisites
+# Prerequisites
 Docker installed: Install Docker
 
 Optional (for local testing without Docker):
