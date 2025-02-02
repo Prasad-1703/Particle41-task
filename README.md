@@ -1,27 +1,23 @@
-**Project Overview**
-This repository contains two tasks related to containerization, cloud infrastructure, and Terraform. These tasks are organized into separate folders, each representing a different challenge:
+# Project Overview
 
-Task 1 - Minimalist Application Development / Docker / Kubernetes
-In this task, we create a simple microservice called SimpleTimeService, which returns a JSON response containing the current timestamp and the visitor's IP address.
+This repository contains two tasks related to containerization, cloud infrastructure, and Terraform.
 
-Key components of this task:
+<h2>Task 1: SimpleTimeService</h2>
 
-Microservice Development: A web server that provides a JSON response with the current date and time along with the IP address of the visitor.
-Dockerization: The microservice is containerized using Docker and configured to run as a non-root user in the container.
-Image Publishing: The Docker image is pushed to a public container registry (e.g., DockerHub), making it accessible to others.
-Code Repository: All code, including the Dockerfile, source code, and configuration files, are available here.
-For detailed instructions on how to build and run the SimpleTimeService application, please refer to the Task 1 README.
+Task 1 focuses on creating a simple microservice in any programming language of your choice, which returns the current date and time in JSON format along with the visitor's IP address.
 
-Task 2 - Terraform and Cloud Infrastructure
-This task involves creating the infrastructure required to host your containerized application using Terraform in AWS (or an equivalent cloud platform). The infrastructure includes:
+- **Technologies Used**: Docker, Node.js (or any preferred language)
+- **Objective**: Create a web server, dockerize the application, and publish it to a container registry.
+- **Containerization**: Dockerfile configured to run as a non-root user and build the container image.
+- **GitHub Repository**: [SimpleTimeService](https://github.com/Prasad-1703/Particle41-task/blob/8beab3b8fa714862719648d55aa9664ec6623834/Task1-SimpleTimeService/README.md)
 
-VPC Creation: Setting up a VPC with two public and two private subnets.
-ECS/EKS Cluster: Deploying a containerized service within a cluster (ECS/EKS) in the private subnets.
-Load Balancer: A load balancer deployed in public subnets to handle traffic and route it to the containerized service.
-Cloud Resources Configuration: Includes security groups, IAM roles, and network configuration.
-You can also choose to implement a serverless solution using Lambda, API Gateway, and appropriate subnet associations.
+<h3>Task 2: Terraform Cloud Infrastructure</h3>
 
-For more detailed instructions on setting up and deploying the infrastructure, please refer to the Task 2 README.
+In Task 2, we set up the cloud infrastructure using Terraform, which hosts the previously created containerized application on AWS (or equivalent).
+
+- **Technologies Used**: Terraform, AWS (or equivalent cloud provider)
+- **Objective**: Create a VPC with subnets, deploy ECS service (or equivalent), and expose the service using a load balancer.
+- **GitHub Repository**: [Terraform Infrastructure](https://github.com/Prasad-1703/Particle41-task/blob/8beab3b8fa714862719648d55aa9664ec6623834/Task2-terraform/Readme.md)
 
 Repository Structure
 task1/ - Contains the code, Dockerfile, and configurations for Task 1 (Minimalist Application).
