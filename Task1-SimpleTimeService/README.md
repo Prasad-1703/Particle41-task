@@ -8,11 +8,11 @@
 
 When accessing the root (/) endpoint, the service returns a JSON response with the following structure:
 
-json
+```json
 {
   "timestamp": "<current date and time>",
   "ip": "<IP address of the visitor>"
-}
+}```
 
 
 
